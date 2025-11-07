@@ -1,0 +1,92 @@
+/* Reset básico */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* Fondo y tipografía general */
+body{
+    background-color: #f5efe6; /* suave crema */
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 2rem 1rem;
+}
+
+/* Centrar el contenido principal y limitar ancho para mejor lectura */
+body > *{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Encabezados */
+h1{
+    font-size: 2.2rem;
+    color: #124033; /* verde azulado */
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.25rem;
+    color: #8a1f1f; /* rojo suave */
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.6rem;
+    border-left: 4px solid rgba(18,64,51,0.12);
+    background: linear-gradient(90deg, rgba(18,64,51,0.02), transparent);
+}
+
+/* Párrafos */
+p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: #222;
+}
+
+/* Enlaces */
+a{
+    color: #0b5a46;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(11,90,70,0.12);
+}
+
+a:hover, a:focus{
+    color: #083b30;
+    border-bottom-color: rgba(11,90,70,0.4);
+}
+
+/* Accesibilidad: foco visible */
+a:focus{
+    outline: 3px solid rgba(11,90,70,0.18);
+    outline-offset: 3px;
+}
+
+/* Soporte para medios (si la página incluye imágenes/audio/video) */
+img, video, audio{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.75rem 0;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 600px){
+    h1{ font-size: 1.6rem; }
+    h2{ font-size: 1.05rem; }
+    body{ padding: 1rem; }
+}
+
+/* Utilidades pequeñas */
+.text-center{ text-align: center; }
+.muted{ color: #666; font-size: 0.95rem; }
+
+/* Fin de estilos */

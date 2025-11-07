@@ -1,0 +1,91 @@
+
+body#costa {
+  background-color: #fff8dc; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #cc0000;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.principal {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+
+.ceviche {
+  width: 60%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+p {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+.platos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.platos img {
+  width: 30%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.platos img:hover {
+  transform: scale(1.05);
+}
+
+
+.enlaces {
+  text-align: center;
+  background-color: #e6f0ff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.enlaces span {
+  display: block;
+  font-size: 18pt;
+  color: darkblue;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.enlaces a {
+  display: inline-block;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #0044cc;
+  font-weight: bold;
+}
+
+.enlaces a:hover {
+  text-decoration: underline;
+  color: #cc0000;
+}
+
